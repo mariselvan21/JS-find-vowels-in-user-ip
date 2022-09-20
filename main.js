@@ -1,4 +1,6 @@
-var str=prompt('enter any name ');
+var str=prompt('enter any name ').toLowerCase();
+// var lowerstr=str.toLowerCase();
+// console.log(lowerstr);
 console.log('No. of letters in given string');
 var length=str.length;
 console.log(length);
